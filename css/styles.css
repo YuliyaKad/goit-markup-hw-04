@@ -732,6 +732,7 @@ img {
   background-color: #404BBF;
   color: #FFFFFF;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -769,10 +770,11 @@ img {
 
 .images {
   width: calc((100% - 48px) / 3);
+  display: block;
 }
 
 .images:hover,
-:focus {
+.images:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
