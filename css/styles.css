@@ -795,13 +795,18 @@ img {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
+  
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4D5AE5;
   display: inline-block;
   margin-bottom: 16px;
+
+  
+}
+.footer-log{
+  margin-bottom: 120px;
 }
 
 
@@ -811,6 +816,16 @@ img {
   list-style: none;
 
 }
+
+.footer-social-text{
+  
+      color: var(--background-color);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
 
 .footer-logo {
 
