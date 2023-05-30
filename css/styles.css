@@ -815,7 +815,7 @@ img {
 }
 
 .footer-log {
-  margin-bottom: 120px;
+  margin:0 120px;
 }
 
 
@@ -849,11 +849,13 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: baseline;
 
 }
 
 .footer-container {
-  margin-right: 120px;
+  margin-right: 0 120px;
+  
 }
 
 .foot-par {
