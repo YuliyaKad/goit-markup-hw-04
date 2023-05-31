@@ -640,7 +640,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #404bbf;
+  color: var(--customers-color)
   fill: currentColor;
 
 }
@@ -663,7 +663,8 @@ img {
 .customers-item {
   width: calc((100% - 5 * 24px) / 6);
   height: 88px;
-  color: var(--customers-color) border: 1px solid var(--customers-icon);
+  color: var(--customers-color);
+   border: 1px solid var(--customers-icon);
 }
 
 .customers-title {
@@ -706,6 +707,7 @@ img {
 .customers-icons {
   color: #8e8f99;
   border: 1px solid var(--customers-icon);
+  fill: currentColor;
 }
 
 /* .customers-icons{
@@ -907,7 +909,7 @@ img {
 
   align-items: baseline;
   max-width: 208px;
-  margin-left: ;
+ 
 }
 
 .footer-social-text {
